@@ -1,1 +1,81 @@
 
+:root {
+    box-sizing: border-box;
+    font-family: 'Inter';
+    background: black;
+}
+
+.main-container{
+    display: grid;
+    place-items: center;
+    
+}
+#input-el{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+#convert {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: bold;
+}
+.top-container{
+    color: #ffffff;
+    text-align: center;
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+}
+
+.button {
+    margin-top: 10px;;
+}
+
+button{
+    width: 117px;
+    height: 42px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+h3 {
+    font-size: 22px;
+    padding-top: 53px;
+    font-family: 'Inter'
+
+    
+}
+
+h1 {
+    
+    padding-top: 64px;
+}
+
+.bottom-container{
+    
+    width: 550px;
+    height: 444px;
+    background: #F4F4F4;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.measurement {
+    background: #FFFFFF;
+    color: #5A537B;
+    text-align: center;
+    width: 500px;
+    height: 108px;
+    margin: 10px;
+    
+}
